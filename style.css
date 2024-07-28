@@ -170,6 +170,10 @@ footer p {
         margin-top: 1.5rem;
     }
 
+    header {
+        height: 20rem;
+    }
+
     .header_content_container h2 {
         font-size: 2.5rem;
     }
@@ -209,6 +213,10 @@ footer p {
         justify-content: space-between;
         align-items: center;
         margin-top: 1.5rem;
+    }
+
+    header {
+        height: 30rem;
     }
 
     .header_content_container h2 {
