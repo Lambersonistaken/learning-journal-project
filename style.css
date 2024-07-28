@@ -76,7 +76,7 @@ header {
 main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-gap: .5em;
+    grid-gap: 3em;
     grid-auto-flow: dense;
     grid-template-areas:
         "card1"
@@ -124,6 +124,24 @@ main img {
     padding: 1rem;
 }
 
+.card_title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.card_date {
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+}
+
+.card_text {
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+}
+
 footer {
     background-color: #202020;
     color: white;
@@ -151,11 +169,36 @@ footer p {
         align-items: center;
         margin-top: 1.5rem;
     }
+
+    .header_content_container h2 {
+        font-size: 2.5rem;
+    }
+
+    .header_content_container p {
+        font-size: 1.2rem;
+    }
+
+    .header_content_container h6 {
+        font-size: 1.2rem;
+    }
+
+    .card_title {
+        font-size: 1.2rem;
+    }
+
+    .card_date {
+        font-size: 1.1rem;
+    }
+
+    .card_text {
+        font-size: 1.1rem;
+    }
 }
 
 @media (min-width: 1200px) {
     main {
         grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5em;
         grid-template-areas:
             "card1 card2 card3"
             "card4 card5 card6";
@@ -166,5 +209,29 @@ footer p {
         justify-content: space-between;
         align-items: center;
         margin-top: 1.5rem;
+    }
+
+    .header_content_container h2 {
+        font-size: 3.5rem;
+    }
+
+    .header_content_container p {
+        font-size: 1.5rem;
+    }
+
+    .header_content_container h6 {
+        font-size: 1.5rem;
+    }
+
+    .card_title {
+        font-size: 1.5rem;
+    }
+
+    .card_date {
+        font-size: 1.3rem;
+    }
+
+    .card_text {
+        font-size: 1.3rem;
     }
 }
