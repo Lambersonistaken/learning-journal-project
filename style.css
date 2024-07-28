@@ -78,6 +78,7 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-gap: 3em;
     grid-auto-flow: dense;
+    margin-bottom: 4rem;
     grid-template-areas:
         "card1"
         "card2"
@@ -157,6 +158,7 @@ footer p {
 @media (min-width: 700px) {
     main {
         grid-template-columns: 1fr 1fr;
+        margin-bottom: 6rem;
         grid-template-areas:
             "card1 card2"
             "card3 card4"
